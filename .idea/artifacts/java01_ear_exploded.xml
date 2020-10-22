@@ -42,6 +42,7 @@
         <element id="file-copy" path="$USER_HOME$/桌面/源代码/boot-crm/WebContent/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar" />
         <element id="file-copy" path="$USER_HOME$/桌面/源代码/boot-crm/WebContent/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar" />
         <element id="file-copy" path="$USER_HOME$/桌面/源代码/boot-crm/WebContent/WEB-INF/lib/spring-expression-4.3.6.RELEASE.jar" />
+        <element id="library" level="project" name="Java EE 6-Java EE 6" />
       </element>
     </root>
   </artifact>
