@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UserController {
     @Autowired
     private UserService userService;
-   @RequestMapping(value = "/register",method = RequestMethod.POST)
+   @RequestMapping(value = "/register",method = RequestMethod.GET)
     public String register(String username,String password){
               int number =   this.userService.register(username,password);
              if (number>0){

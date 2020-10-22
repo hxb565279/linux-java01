@@ -11,10 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<form action="">
+<form action="${pageContext.request.contextPath}/user/register.action" method="post" >
     <label><input type="text" id="username"></label>
-    <label><input type="password" id=" password"></label>
-    <label><input type="submit" value="注册" onsubmit="return true"></label>
+    <iut type="password" id="password">
+    <input type="submit" value="注册" >
 </form>
 
 </body>
